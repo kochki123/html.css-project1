@@ -1,0 +1,134 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  resize: none;
+  font-family: "Roboto Condensed", sans-serif;
+  font-weight: 600;
+}
+
+
+header{
+  display: flex;
+  min-width: 320px;
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  position: fixed;
+}
+
+header .left{
+  width: 30%;
+  display: flex;
+  align-items: center;
+  margin-left: 75px;
+}
+
+header .left p{
+  color: #EB4740;
+  font-size: 13px;
+}
+
+
+
+header .mid{
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header .mid ul li, header .mid ul li a{
+  font-size: 13px;
+  color:  #EB4740;
+}
+
+header .mid ul{
+  display: flex;
+  gap: 20px;
+}
+
+header .right{
+  width: 40%;
+  display: flex;
+  justify-content: end;
+  margin-right:50px;
+  align-items: center;
+}
+
+header .right .call{
+  color:#EB4740 ;
+  font-size: 13px;
+}
+
+
+.burgerbox{
+  height: 40px;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: end;
+}
+
+
+label{
+  /* display: none; */
+  height: 20px;
+  width: 40px;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  gap: 3px;
+}
+
+#burger{
+  display: none;
+}
+
+
+
+.burgerline{
+  width: 23px;
+  height: 3px;
+  background-color: #EB4740;
+  border: 1px solid #EB4740;
+  border-radius: 3px;
+
+}
+
+
+
+
+
+@media screen and (max-width:560px){
+
+  header .mid ul{
+  display: flex;
+  gap: 10px;
+}
+
+}
+
+
+@media screen  and (max-width:1300px){
+  
+  .home-bestfriend{
+    height: auto;
+  }
+}
+
+@media screen and (max-width:520px) {
+
+  header .mid{
+    display: none;
+  }
+
+  label{
+    display: flex;
+    align-items: center;
+  }
+  
+}
