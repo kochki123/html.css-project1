@@ -4,7 +4,7 @@
   box-sizing: border-box;
   text-decoration: none;
   list-style: none;
-  resize: none;
+  resize:  none;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
 }
@@ -71,23 +71,64 @@ header .right .call{
   flex-direction: column;
   justify-content: center;
   align-items: end;
+  
 }
 
 
-label{
-  /* display: none; */
+footer .down{
+  width: 100%;
+  min-width: 320px;
+  /* height: 40vh; */
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   flex-wrap: wrap;
+   gap: 120px;
+}
+
+
+footer .down .box1, footer .down .box2, footer .down .box3{
+  padding-top: 30px;
+  color: white;
+}
+
+
+
+footer{
+  width: 100%;
+  min-width: 320px;
+  /* height: 120vh; */
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.burgerlabel{
+  
   height: 20px;
   width: 40px;
   display: none;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   gap: 3px;
 }
 
-#burger{
+#burger {
   display: none;
 }
 
+
+ #burger:checked ~ nav ul li{
+  font-size: 30px;
+  color: black;
+}
+
+#burger:checked ~  nav ul li a{
+  font-size: 30px;
+  color: black;
+}
 
 
 .burgerline{
@@ -99,6 +140,25 @@ label{
 
 }
 
+#burger:checked ~ nav{
+  display: flex;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 40px;
+  left: 0;
+  background-color: #EB4740;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+#burger:checked ~ nav ul{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  font-size: 20px;
+}
 
 
 
@@ -126,7 +186,7 @@ label{
     display: none;
   }
 
-  label{
+  .burgerlabel{
     display: flex;
     align-items: center;
   }

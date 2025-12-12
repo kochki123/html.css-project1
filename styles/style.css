@@ -2,7 +2,7 @@
 
 .home-bestfriend{
   width: 100%;
-  height: 100vh;
+  /* height: 100vh; */
   padding-top: 40px;
   display: flex;
   justify-content: start;
@@ -143,9 +143,9 @@ button:hover{
 
 
 .about-us{
-  /* width: 100%; */
+  width: 100%;
   min-width: 320px;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
@@ -155,7 +155,7 @@ button:hover{
 .about-us .left{
   width: 55%;
   min-width: 320px;
-  height:100vh ;
+  /* height:100vh ; */
   display: flex;
   flex-grow: 1;
   justify-content: center;
@@ -166,7 +166,7 @@ button:hover{
 .background{
   width: 78%;
   min-width: 320px;
-  height: 80%;
+  height: 80vh;
   background-image: url(../images/123.png);
   display: flex;
   flex-grow: 0.3;
@@ -182,20 +182,20 @@ button:hover{
 .about-us .right{ 
   width: 45%;
   min-width: 320px;
-  height: 100%;
+  height: 100vh;
   display: flex;
   flex-grow: 1;
   flex-wrap: wrap;
   color: white;
   justify-content: center;
   align-items: center;
-
+  gap: 100px;
 }
 
 .r-child{
   width: 50%;
   min-width: 320px;
-  height: 80%;
+  /* height: 80vh; */
   display: flex;
   flex-direction: column;
   justify-content: start;
@@ -225,7 +225,7 @@ button:hover{
 .all-services .title{
   width: 100%;
   min-width: 320px;
-  height: 20vh;
+  /* height: 20vh; */
   /* background-color: aqua; */
   font-size: 50px;
   display: flex;
@@ -305,7 +305,7 @@ button:hover{
 
 .atitle{
   width: 60%;
-  height: 30vh;
+  /* height: 30vh; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -340,7 +340,7 @@ button:hover{
 
 .benefitbox-text{
   width: 100%;
-  height: 100%;
+  height: 300px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -368,7 +368,7 @@ button:hover{
 .testimonials{
   width: 100%;
   min-width: 320px;
-  height: 110vh;
+  /* height: 110vh; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -382,7 +382,7 @@ button:hover{
 
 .testimonials .title{
   width: 25%;
-  height: 30vh;
+  /* height: 30vh; */
   display: flex;
   align-self: flex-start;
   justify-content: center;
@@ -391,7 +391,7 @@ button:hover{
 
 .testimonials .title .atitle{
   width: 60%;
-  height: 30vh;
+  /* height: 30vh; */
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -413,11 +413,11 @@ button:hover{
 .testimonial-boxes{
   width: 100%;
   min-width: 320px;
-  height: 80vh;
+  /* height: 80vh; */
   display: flex;
   flex-direction: column;
   align-items: end;
-  gap:100px;
+  gap:40px;
   flex-grow: 1;
 }
 
@@ -474,6 +474,213 @@ button:hover{
   align-items: end;
 }
 
+
+.contacts{
+  width: 100%;
+  /* height: 120vh; */
+  background-color: black;
+  color: white;
+}
+
+.contacts .up{
+  width: 100%;
+  /* height: 100vh; */
+  
+}
+
+.contacts .down{
+  width: 100%;
+  min-width: 320px;
+  /* height: 40vh; */
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+   flex-wrap: wrap;
+   gap: 120px;
+}
+
+.contacts .up .left{
+  width: 60%;
+  min-width: 320px;
+  /* height: 100vh; */
+  display: flex;    
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.contacts .up .left h1{
+    font-size: 110px;
+}
+
+.contacts .up .left .leftchild{
+  width: 80%;
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.name{
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  flex-grow: 0.1;
+  width: 86%;
+  height:70px ;
+  gap: 10%;
+}
+
+input{
+  font-size: 20px;
+}
+
+.email{
+  width: 82.5%;
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+#email{
+  width: 100%;
+  height: 40px;
+  background-color: black;
+  color: WHITE;
+  border: 2px solid black;
+}
+
+.first-name, .last-name{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.message{
+  width: 82.5%;
+  height: 90px;
+}
+
+textarea{
+  overflow-y: auto;   
+  overflow-x: hidden; 
+  width: 100%;
+  height: 90px;   
+  background-color: black;
+  border: 2px solid  black;
+  color: white;
+  font-size: 20px;
+
+
+}
+
+.first-name, .last-name{
+  width: 43%;
+  /* min-width: 320px; */
+  height: 70px;
+  display: flex;
+  flex-grow: 0.1;
+}
+
+
+.whiteline{
+  width: 100%;
+  flex-grow: 0.01;
+  height: 10px;
+  background-color: white;
+}
+
+#firstname, #lastname{
+  width: 100% ;
+  height:50px;
+  background-color: black;
+  color: white;
+  border: 3px solid black;
+  display: flex;
+  flex-grow: 0.5;
+}
+
+ .register{
+  width: 100%;
+  /* height: 80vh; */
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+
+.contacts .up .left .leftchild .register button{
+  padding: 15px 45px;
+  font-size: 20px;
+  margin-top: 50px;
+}
+
+.phone{
+  display: flex;
+  width: 82.5%;
+  height: 70px;
+  flex-direction: column;
+}
+
+.p-child{
+  display: flex;
+  width: 100%;
+  height: 40px;
+}
+
+footer{
+  width: 100%;
+  min-width: 320px;
+  /* height: 120vh; */
+  display: flex;
+  flex-direction: column;
+}
+
+footer .down{
+  width: 100%;
+  min-width: 320px;
+  /* height: 30vh; */
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+footer .down .box1, footer .down .box2, footer .down .box3{
+  padding-top: 30px;
+}
+
+#numbers{
+  width: 40%;
+  height: 40px;
+  font-size: 20px;
+  background-color: black;
+  color: white;
+  border: solid 1px black;
+}
+
+#number{
+  width: 60%;
+  height: 40px;
+  background-color: black;
+  color: white;
+  border: solid 1px black;
+}
+
+.whitleline{
+  width: 82.5%;
+  height: 10px;
+  background-color: white;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+
+
 @media screen and (max-width:680px) {
   
   .testimonials .title h1{
@@ -524,6 +731,9 @@ button:hover{
     font-size: 30px;
   }
   
+  .contacts .up .left .leftchild .title h1{
+    font-size: 70px;
+  }
 }
 
 
@@ -539,4 +749,24 @@ button:hover{
   .benefits{
     height: 190vh;
   }
+}
+
+@media screen and (max-width:1250px) {
+  
+    .testimonials{
+      height: 140vh;
+    }
+
+    .contacts .down{
+      /* height: 160vh; */
+    }
+
+}
+
+@media screen and (max-width:685px) {
+
+  .testimonials{
+    height: 180vh;
+  }
+  
 }
