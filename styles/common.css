@@ -7,6 +7,7 @@
   resize:  none;
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
+  scroll-behavior: smooth;
 }
 
 
@@ -45,6 +46,16 @@ header .mid ul li, header .mid ul li a{
   color:  #EB4740;
 }
 
+header .mid ul li:hover{
+  color: white;
+  transition: 0.6s;
+}
+
+header .mid ul li a:hover{
+  color: white;
+  transition: 0.6s;
+}
+
 header .mid ul{
   display: flex;
   gap: 20px;
@@ -71,7 +82,6 @@ header .right .call{
   flex-direction: column;
   justify-content: center;
   align-items: end;
-  
 }
 
 
@@ -128,6 +138,21 @@ footer{
 #burger:checked ~  nav ul li a{
   font-size: 30px;
   color: black;
+}
+
+
+#burger:checked ~ .burgerbox .burgerline:nth-child(2) {
+  display: none;
+}
+
+
+#burger:checked ~ .burgerbox .burgerline:nth-child(1) {
+  transform: rotate(45deg) translate(4px);
+}
+
+
+#burger:checked ~ .burgerbox .burgerline:nth-child(3) {
+  transform: rotate(-45deg) translate(4px);
 }
 
 
