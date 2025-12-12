@@ -1,3 +1,31 @@
+.animationbox1{
+  width: 500px;
+  height: 250px;
+  top: 40px;
+  background-color: black;
+  position: absolute;
+  animation: anim1 1.5s ease forwards;
+}
+
+
+.animationbox2{
+  width: 100%;
+  height: 310px;
+  position: absolute;
+  top: 320px;
+  background-color: black;
+  animation: anim2 2s ease forwards;
+}
+
+
+.animationbox3{
+  width: 600px;
+  height: 135px;
+  position: absolute;
+  background-color: black;
+  animation: anim3 0.7s ease forwards;
+  animation-delay: 1s;
+}
 
 
 .home-bestfriend{
@@ -765,6 +793,45 @@ input[type="number"]::-webkit-outer-spin-button {
 
   .testimonials{
     height: 180vh;
+  }
+  
+}
+
+
+
+@keyframes anim1 {
+
+  from{
+    height: 250px;
+  }
+
+
+  to{
+    height: 0px;
+  }
+  
+}
+
+
+@keyframes anim2 {
+  
+  from{
+    opacity: 1;
+  }
+  
+  to{
+    opacity: 0;
+  }
+}
+
+@keyframes anim3 {
+
+  from{
+    height: 135px;
+  }
+
+  to{
+    height: 0px;
   }
   
 }
