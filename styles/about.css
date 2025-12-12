@@ -2,17 +2,68 @@
 
 .aboutus{
   width: 100%;
-  height: 150vh;
+  min-width: 320px;
+  /* height: 150vh; */
   background-color: black;
   padding-top: 40px;
   display: flex;
-  justify-content: center;
+  gap: 50px;
+  flex-direction: column;
+  align-items: center;
+  color: white;
 }
+
+
+.aboutus .up{
+    width: 100%;
+    min-width: 320px;
+    /* height: 80h; */
+    display: flex;
+    justify-content: center;
+}
+
+
+.aboutus .up .up-child{
+  width: 90%;
+  min-width: 320px;
+  /* height: 100vh; */
+  display: flex;
+  align-items: center;
+}
+
+
+.aboutus .up .up-child .left{
+  width: 50%;
+  min-width: 320px;
+  /* height: 90vh; */
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 30px;
+} 
+
+
+.aboutus .up .up-child .left h1{
+  font-size: 100px;
+}
+
+
+.textup, .textdown{
+  width: 90%;
+  min-width: 320px;
+  display: flex;
+  flex-grow: 0.05;
+  font-size: 20px;
+}
+
 
 .aboutus .down{
     width: 90%;
+    min-width: 320px;
     /* height: 75vh; */
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     gap: 100px;
 }
@@ -25,14 +76,20 @@
 
 .box{
   width: 200px;
-  height: 220px;
-  background-color: rebeccapurple;
+  height: 240px;
+  display: flex;
+  flex-grow: 0.02;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
 }
 
 .boxes{
   width: 100%;
+  min-width: 320px;
   /* height: 55vh; */
   display: flex;
+  flex-wrap: wrap;
   gap: 50px;
   justify-content: space-between;
   align-items: center;
