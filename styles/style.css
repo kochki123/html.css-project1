@@ -14,7 +14,7 @@
   position: absolute;
   top: 320px;
   background-color: black;
-  animation: anim2 2s ease forwards;
+  animation: anim2 2.5s ease forwards;
 }
 
 
@@ -41,8 +41,10 @@
 
 .up1{
   width: 100%;
+  min-width: 320px;
   /* height: 40%; */
   display: flex;
+  flex-wrap: wrap;
   background-color: black;
 }
 

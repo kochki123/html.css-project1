@@ -7,7 +7,7 @@
   background-color: black;
   padding-top: 40px;
   display: flex;
-  gap: 50px;
+  gap: 125px;
   flex-direction: column;
   align-items: center;
   color: white;
@@ -121,4 +121,51 @@
   width: 100%;
   height: 50px;
   font-size: 20px;
+}
+
+
+.animationbox1{
+  width: 300px;
+  height: 143px;
+  position: absolute;
+  background-color: black;
+  animation: anim1 1s ease forwards ;
+}
+
+
+.animationbox2{
+  width: 650px;
+  height: 450px;
+  position: absolute;
+  top: 200px;
+  left: 50px;
+  background-color: black;
+  animation: anim2 1.5s ease forwards;
+}
+
+
+
+
+@keyframes anim1 {
+  
+  from{
+    height: 143px;
+  }
+
+  to{
+    height: 0px;
+  }
+}
+
+
+@keyframes anim2 {
+
+  from{
+    height: 600px;
+  }
+
+  to{
+    height: 0px;
+  }
+  
 }
