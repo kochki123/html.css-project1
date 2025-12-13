@@ -110,9 +110,162 @@ button:hover{
   background-color: white;
 }
 
+.animationbox1{
+  width: 481px;
+  height: 145px;
+  position: absolute;
+  background-color: black;
+  animation: anim1 1.5s ease forwards;
+}
+
+
+
+.animationbox2{
+  width: 252px;
+  height: 54px;
+  position: absolute;
+  background-color: black;
+  animation: anim2 1.5s ease forwards;
+}
+
+
+
+.animationbox3{
+  width: 630px;
+  height: 159px;
+  position: absolute;
+  background-color: black;
+  animation: anim3 1.5s ease forwards;
+}
+
+
+
+
+
 @media screen and (max-width:505px) {
   
   .service .title h1{
     font-size: 70px;
   }
 }
+
+
+
+@keyframes anim1 {
+
+  from{
+    height: 145px;
+  }
+
+  to{
+    height: 0px;
+  }
+  
+}
+
+
+
+@keyframes anim2 {
+
+  from{
+    height: 54px;
+  }
+
+  to{
+    height: 0px;
+  }
+  
+}
+
+
+@keyframes anim3 {
+
+  from{
+    height: 159px;
+  }
+
+  to{
+    height: 0px;
+  }
+  
+}
+
+
+/* @media screen  and (max-width:1300px){
+  
+  .animationbox3{
+    width: 500px;
+  }
+}
+
+@media screen and (max-width:1060px){
+  .animationbox3{
+    width: 430px;
+    height: 190px;
+  }
+}
+
+@media screen and (max-width:905px){
+
+  .animationbox3{
+    width: 370px;
+    height: 220px;
+  }
+  
+}
+
+@media screen and (max-width:821px){
+  .animationbox3{
+    height: 240px;
+  }
+}
+
+@media screen and (max-width:779px) {
+  .animationbox3{
+    width: 320px;
+    height: 270px;
+  }
+}
+
+
+@media screen and (max-width:711px) {
+  .animationbox3{
+    width: 570px;
+    height: 159px;
+  }
+  
+}
+
+@media screen and (max-width:630px){
+  .animationbox3{
+    width: 520px;
+  }
+}
+
+@media screen and (max-width:575px) {
+  .animationbox3{
+    width: 470px;
+  }
+}
+
+@media screen and (max-width:549px) {
+  .animationbox3{
+    height: 190px;
+  }
+}
+
+@media screen and (max-width:517px) {
+  .animationbox3{
+    width: 410px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .animationbox3{
+    height:215px ;
+  }
+}
+
+@media screen and {
+  
+} */
