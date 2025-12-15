@@ -1,1 +1,36 @@
-/*# sourceMappingURL=privacy.css.map */
+.privacy {
+  width: 100%;
+  min-height: 320px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 40px;
+  gap: 60px;
+}
+.privacy .title {
+  width: 40%;
+  min-width: 320px;
+}
+.privacy .title h1 {
+  font-size: 100px;
+}
+.privacy .boxes {
+  width: 40%;
+  min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 50px;
+  justify-content: start;
+}
+.privacy .box {
+  width: 100%;
+  min-width: 320px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  flex-grow: 1;
+  gap: 35px;
+  font-size: 20px;
+}/*# sourceMappingURL=privacy.css.map */
