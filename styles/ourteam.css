@@ -1,0 +1,78 @@
+.ourteam {
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: black;
+  color: white;
+  padding-top: 40px;
+}
+.ourteam .teamchild {
+  width: 90%;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+}
+.ourteam .teamchild h1 {
+  font-size: 100px;
+}
+.ourteam .teamchild .team {
+  width: 100%;
+  min-width: none;
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+.ourteam .teamchild .team .box .title h2 {
+  font-size: 50px;
+}
+.ourteam .teamchild .team .box .title h3 {
+  font-size: 30px;
+}
+.ourteam .teamchild .team .box {
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  font-size: 20px;
+  gap: 20px;
+}
+.ourteam .teamchild .team .box .member {
+  width: 100%;
+  min-width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.ourteam .teamchild .team .box .member .boxright {
+  width: 50%;
+  min-width: 320px;
+  flex-grow: 0.05;
+}
+.ourteam .teamchild .team .box1 .member .boxleft {
+  width: 170px;
+  height: 200px;
+  background-image: url(https://static.wixstatic.com/media/11062b_410b5ce530a943808b8dad3a6cf1b866~mv2.jpg/v1/crop/x_0,y_0,w_2000,h_2149/fill/w_146,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_410b5ce530a943808b8dad3a6cf1b866~mv2.jpg);
+  background-size: cover;
+  flex-grow: 0.01;
+}
+
+.ourteam .teamchild .team .box2 .member .boxleft {
+  width: 170px;
+  height: 200px;
+  background-image: url(https://static.wixstatic.com/media/84770f_669c5f528fa942429e64f57c53c3fd63~mv2.jpg/v1/crop/x_1160,y_0,w_1599,h_1716/fill/w_146,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Young%20Woman_edited.jpg);
+  background-size: cover;
+  flex-grow: 0.01;
+}
+
+.ourteam .teamchild .team .box3 .member .boxleft {
+  width: 170px;
+  height: 200px;
+  background-image: url(https://static.wixstatic.com/media/11062b_67a1e95f99774c919aeab2e7f102571b~mv2.jpg/v1/crop/x_0,y_68,w_2000,h_2151/fill/w_146,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Portrait%20of%20Businessman%20%20%20%20%20%20.jpg);
+  background-size: cover;
+  flex-grow: 0.01;
+}
+
