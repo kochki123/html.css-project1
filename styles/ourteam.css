@@ -76,3 +76,50 @@
   flex-grow: 0.01;
 }
 
+.animationbox1{
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  background-color: black;
+  animation: anim1 0.7s forwards ease;
+}
+
+@keyframes anim1 {
+  from{
+    height: 200px;
+    
+  }
+  to{
+    height: 0;
+  }
+  
+}
+
+.animationbox2{
+  width: 300px;
+  height: 150px;
+  background-color: black;
+  position: absolute;
+  top: 200px;
+  animation: anim2 0.7s forwards ease;
+}
+
+@keyframes anim2 {
+  from{
+    height: 150px;
+    
+  }
+  to{
+    height: 0;
+  }
+  
+}
+
+.animationbox3{
+  width: 750px;
+  height: 200px;
+  position: absolute;
+  background-color: black;
+  left: 250px;
+   animation: anim1 0.7s forwards ease;
+}
